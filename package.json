@@ -1,0 +1,24 @@
+{
+  "name": "backend-reactts-base-mediate",
+  "version": "1.0.0",
+  "description": "store jsonplaceholder api",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "nodemon src/main.ts --watch",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
