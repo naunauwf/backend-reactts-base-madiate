@@ -2,7 +2,7 @@
   "name": "backend-reactts-base-mediate",
   "version": "1.0.0",
   "description": "store jsonplaceholder api",
-  "main": "src/main.js",
+  "main": "dist/main.js",
   "scripts": {
     "dev": "nodemon src/main.ts --watch",
     "build": "tsc",
